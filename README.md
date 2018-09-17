@@ -21,7 +21,7 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-FooterTool::Rederer.copyright 'Elbi Gote', 'All rights reserved'
+FooterTool::Renderer.copyright 'Elbi Gote', 'All rights reserved'
 ```
 
 ## Development
