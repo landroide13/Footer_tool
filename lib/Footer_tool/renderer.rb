@@ -1,12 +1,10 @@
 
 module FooterTool
-  class Rederer
+  class Renderer
     def self.copyright name, msg
-      "<hr>".html_safe
       "&copy; #{Time.now.year} | <b>#{name}</b> #{msg}".html_safe
     end
   end
-  
 end
 
 
